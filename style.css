@@ -1,0 +1,41 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#rgb{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#rgb h1{
+    text-align: center;
+    
+}
+#rgb button{
+    width: 10%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-weight: 700;
+    background: none;
+    border: 2px solid black;
+}
+#hex{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#hex h1{
+    text-align: center;
+}
+#hex button{
+    width: 10%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-weight: 700;
+    background: none;
+    border: 2px solid black;
+}
